@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: 95EB9C;
+}
+#navbar {
+    background-color: #FFE99D;
+    height: auto;
+    display: grid;
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    
+
+}
+.height100{
+    height: 80px;
+    /*background-color: green;*/
+}
+
+#donutdash-text {
+    font-size: 18px;
+    font-family: 'Roboto';
+    
+}
+
+@media (min-width:400px)
+{
+
+}
+
+@media  (min-width:800px)
+{
+    #navbar {
+        column-gap: 0px;
+        grid-template-columns: repeat(12,8.33%);
+        
+        
+    }
+
+    #logo {
+        grid-column: 2/3;
+        display: grid;  
+        grid-template-columns: auto auto;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #donutdash-div{
+        display: grid;
+        grid-template-columns: auto;
+        align-content: center;
+        font-size: 10 vw;
+    }
+
+    
+
+    
+
+    
+
+}
