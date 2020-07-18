@@ -5,61 +5,97 @@
 body{
     background-color: 95EB9C;
 }
-#navbar {
-    background-color: #FFE99D;
-    height: auto;
-    display: grid;
-    position: fixed;
-    left: 0;
-    top:0;
-    width: 100%;
-    
 
-}
-.height100{
-    height: 80px;
-    /*background-color: green;*/
+.big-text{
+    margin-left: 20px;
+    font-family: Roboto;
+    font-weight: 700;
 }
 
-#donutdash-text {
-    font-size: 18px;
-    font-family: 'Roboto';
-    
+.big-text:hover{
+    font-weight: 900;
+    cursor: pointer;
 }
+#burger-img{
+    width: 50px;
+    height: 50px;
+}
+
 
 @media (min-width:400px)
 {
+    #navbar{
+        display: grid;
+        position: absolute;
+        left: 0px;
+        top:0px;
+        height: 80px;
+        grid-template-columns: repeat(12,1fr);
+        
+        background-color: #FFE99D;
+        
+    }
 
+    #logo-and-text{
+        display: grid;
+        align-self: center;
+        justify-self: start;
+        align-items: center;
+        grid-column: 2/3;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #burger{
+        display: grid;
+        align-items: center;
+        justify-self: center;
+        grid-column: 11/12;
+        align-self: center;
+    }
+
+    #menu{
+        grid-column: 1/13;
+        grid-row: 2;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        display: none;
+        
+    }
 }
 
-@media  (min-width:800px)
+@media (min-width:800px)
 {
-    #navbar {
-        column-gap: 0px;
-        grid-template-columns: repeat(12,8.33%);
-        
-        
-    }
-
-    #logo {
-        grid-column: 2/3;
-        display: grid;  
-        grid-template-columns: auto auto;
-        align-content: center;
-        justify-content: center;
-    }
-
-    #donutdash-div{
+    #navbar{
         display: grid;
-        grid-template-columns: auto;
-        align-content: center;
-        font-size: 10 vw;
+        grid-template-columns: repeat(12,1fr);
+        height: 80px;
+        background-color: #FFE99D;
+        position: absolute;
+        left: 0px;
+        top:0px;
+        
     }
 
-    
+    #logo-and-text{
+        display: grid;
+        grid-column: 2/3;
+        justify-self: start;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
 
-    
+    #burger{
+        grid-column:10/11 ;
+        display: none;
+    }
 
-    
-
+    #menu{
+        display: grid;
+        grid-column: 11/12;
+        grid-row: 1;
+        justify-self: end;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
 }
