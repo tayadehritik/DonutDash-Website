@@ -1,0 +1,25 @@
+{
+  "name": "DonutDash-Website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tayadehritik/DonutDash-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage":"https://tayadehritik.github.io/DonutDash-Website",
+  "bugs": {
+    "url": "https://github.com/tayadehritik/DonutDash-Website/issues"
+  },
+  "homepage": "https://github.com/tayadehritik/DonutDash-Website#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
