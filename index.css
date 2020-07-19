@@ -2,9 +2,7 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: 95EB9C;
-}
+
 
 .big-text{
     margin-left: 20px;
@@ -17,8 +15,8 @@ body{
     cursor: pointer;
 }
 #burger-img{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 
@@ -32,8 +30,11 @@ body{
         height: 80px;
         grid-template-columns: repeat(12,1fr);
         
-        background-color: #FFE99D;
         
+    }
+
+    .big-text{
+        font-size: 18px;
     }
 
     #logo-and-text{
@@ -44,6 +45,11 @@ body{
         grid-column: 2/3;
         grid-template-columns: 1fr 1fr;
     }
+
+    #logo{
+        width: 40px;
+        height: 40px;
+    }    
 
     #burger{
         display: grid;
@@ -70,12 +76,19 @@ body{
         display: grid;
         grid-template-columns: repeat(12,1fr);
         height: 80px;
-        background-color: #FFE99D;
         position: absolute;
         left: 0px;
-        top:0px;
-        
+        top:0px;    
     }
+
+    .big-text{
+        font-size: 20px;
+    }
+
+   #logo{
+       width:50px;
+       height:50px;
+   }
 
     #logo-and-text{
         display: grid;
@@ -97,5 +110,7 @@ body{
         justify-self: end;
         grid-template-columns: 1fr 1fr;
         align-items: center;
+        align-self: center;
+        
     }
 }
