@@ -41,6 +41,7 @@ body, html {
 {
     #navbar{
         display: grid;
+        background-color: #FFE99D;
         left: 0px;
         top:0px;
         height: 80px;
@@ -128,7 +129,6 @@ body, html {
 
     #description-container{
         height: 300px;
-        background-color: #FFE99D;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -152,6 +152,29 @@ body, html {
         margin-right: 10%;
         line-height: 200%;
     
+    }
+
+
+    #img-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+
+    #screen_1{
+        width: 200px;
+        height: auto;
+    }
+
+    #screen_2{
+        width: 200px;
+        height: auto;
+    }
+
+    #screen_3{
+        width: 200px;
+        height: auto;
     }
 
 /*
@@ -205,6 +228,8 @@ body, html {
 {
     #navbar{
         display: grid;
+
+        background-color: #FFE99D;
         grid-template-columns: repeat(12,1fr);
         height: 80px;
         left: 0px;
@@ -283,7 +308,6 @@ body, html {
     #description-container{
         height: 400px;
         display: grid;
-        background-color: #FFE99D;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         justify-items: center;
@@ -306,6 +330,28 @@ body, html {
         margin-right: 20%;
         line-height: 200%;
     
+    }
+
+    #img-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+    }
+
+    #screen_1{
+        width: 200px;
+        height: auto;
+    }
+
+    #screen_2{
+        width: 200px;
+        height: auto;
+    }
+
+    #screen_3{
+        width: 200px;
+        height: auto;
     }
 
     /*
