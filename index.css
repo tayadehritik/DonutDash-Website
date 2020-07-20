@@ -85,8 +85,7 @@ body, html {
 
     #main-content{
         display: grid;
-        height: 800px;
-        background-color: #DB7A7A;
+        height: 600px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
     }
@@ -109,7 +108,22 @@ body, html {
         align-self: flex-start;
         
     }
+    
+    #screenshot-container{
+        display: grid;
+        grid-template-columns:5% 90% 5%;
+        grid-template-rows: 1fr;
+    }
+    video{
+        width: 100%;
+        height: auto;
+        grid-column: 2/3;
+        align-self: center;
+        justify-self: center;
+        background-color: red;
+    }
 
+/*
     #screenshot-container{
         display: grid;
         grid-template-columns: 10% 26.66% 26.66% 26.66% 10%;
@@ -151,6 +165,8 @@ body, html {
         align-self: center;
         justify-self: center;
     }
+    */
+    
 
 }
 
@@ -198,7 +214,6 @@ body, html {
     #main-content{
         display: grid;
         height: 400px;
-        background-color: #DB7A7A;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
     }
@@ -221,12 +236,28 @@ body, html {
         align-self: flex-start;
     }
 
+    #screenshot-container{
+        display: grid;
+        grid-template-columns:10% 80% 10%;
+        grid-template-rows: 1fr;
+    }
+    video{
+        width: 100%;
+        height: auto;
+        grid-column: 2/3;
+        align-self: center;
+        justify-self: center;
+    }
+    
+    /*
     
     #screenshot-container{
         display: grid;
         grid-template-columns: 10% 26.66% 26.66% 26.66% 10%;
+        
         grid-template-rows: 1fr;
     }
+
 
     #left-icon{
         align-self: center;
@@ -237,7 +268,7 @@ body, html {
     {
         background-color: green;
         height: 199.33px;
-        width:auto;
+    x   width:auto;
         align-self: center;
         justify-self: center;
     }
@@ -246,10 +277,11 @@ body, html {
         background-color: pink;
         height: 299px;
         width: auto;
-        
+        grid-column: 3/4;
         align-self: center;
-        justify-self: center;        
+        justify-self: center; 
     }
+    
     #right-image
     {
         background-color: yellow;
@@ -263,7 +295,9 @@ body, html {
         justify-self: center;
         align-self: center;
     }
-    
+
+    */
+     
 
 
 }
