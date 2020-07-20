@@ -180,6 +180,20 @@ body, html {
         height: auto;
     }
 
+    #footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    #footer-text{
+        font-family: "Roboto";
+        font-weight: 300;
+        font-size: 16px;
+    }
+
 /*
     #screenshot-container{
         display: grid;
@@ -362,7 +376,20 @@ body, html {
         justify-self: flex-start;
     }
 
+    #footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
     
+    #footer-text{
+        font-family: "Roboto";
+        font-weight: 300;
+        font-size: 16px;
+    }
+
     /*
     
     #screenshot-container{
