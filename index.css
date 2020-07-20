@@ -126,42 +126,43 @@ body, html {
     }
 
 
-
     #description-container{
-        height: 300px;
+        height: 400px;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr ;
         justify-items: center;
     }
     
     #description-text{
         font-family: Roboto;
-        font-size:16px;
+        font-size: 18px;
         font-weight: 900;
         font-size: 20px;
-        align-self: flex-end;
+        align-self: center;
         
     }
     #description-para{
         font-family: "Roboto";
-        font-size: 14px;
-        font-weight: 400;
+        font-size: 16px;
+        font-weight: 300;
+        align-self: center;
         text-align: center;
         margin-left: 10%;
         margin-right: 10%;
         line-height: 200%;
     
     }
+   
 
 
     #img-container{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        padding-top: 20px;
         align-items: center;
         justify-items: center;
+
     }
 
     #screen_1{
@@ -279,6 +280,7 @@ body, html {
     #title-and-badge{
         display: grid;
         grid-template-columns: 1fr;
+        justify-self: center;
         grid-template-rows: 1fr 1fr;
         justify-items: center;
         
@@ -311,7 +313,7 @@ body, html {
         height: 400px;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr ;
         justify-items: center;
     }
     
@@ -320,13 +322,14 @@ body, html {
         font-size: 18px;
         font-weight: 900;
         font-size: 20px;
-        align-self: flex-end;
+        align-self: center;
         
     }
     #description-para{
         font-family: "Roboto";
         font-size: 16px;
-        font-weight: 400;
+        font-weight: 300;
+        align-self: center;
         text-align: center;
         margin-left: 20%;
         margin-right: 20%;
@@ -338,12 +341,14 @@ body, html {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
-        justify-items: center;
+        
+        align-items: center;
     }
 
     #screen_1{
         width: 200px;
         height: auto;
+        justify-self: flex-end;
     }
 
     #screen_2{
@@ -354,8 +359,10 @@ body, html {
     #screen_3{
         width: 200px;
         height: auto;
+        justify-self: flex-start;
     }
 
+    
     /*
     
     #screenshot-container{
