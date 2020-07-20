@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 body, html {
     margin: 0px;
     padding: 0px;
@@ -121,6 +122,36 @@ body, html {
         align-self: center;
         justify-self: center;
         background-color: red;
+    }
+
+
+
+    #description-container{
+        height: 300px;
+        background-color: #FFE99D;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+    }
+    
+    #description-text{
+        font-family: Roboto;
+        font-size:16px;
+        font-weight: 900;
+        font-size: 20px;
+        align-self: flex-end;
+        
+    }
+    #description-para{
+        font-family: "Roboto";
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        line-height: 200%;
+    
     }
 
 /*
@@ -248,7 +279,35 @@ body, html {
         align-self: center;
         justify-self: center;
     }
+
+    #description-container{
+        height: 400px;
+        display: grid;
+        background-color: #FFE99D;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+    }
     
+    #description-text{
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 900;
+        font-size: 20px;
+        align-self: flex-end;
+        
+    }
+    #description-para{
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        line-height: 200%;
+    
+    }
+
     /*
     
     #screenshot-container{
