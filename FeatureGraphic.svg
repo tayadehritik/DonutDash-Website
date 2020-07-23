@@ -1,6 +1,25 @@
 <svg width="1080" height="500" viewBox="0 0 1080 500" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0)">
 <path d="M501.5 271C326.7 136.6 77 289 -26 382V516.5H1079.5V236.5C959.667 304 676.3 405.4 501.5 271Z" fill="#FFEEB1"/>
+<ellipse cx="184.218" cy="178.107" rx="12.5" ry="3" transform="rotate(31.6113 184.218 178.107)" fill="#FFEDAB"/>
+<ellipse cx="965.218" cy="54.1068" rx="12.5" ry="3" transform="rotate(115.511 965.218 54.1068)" fill="#FFEDAB"/>
+<ellipse cx="323.169" cy="159.117" rx="17" ry="4" transform="rotate(-35.4454 323.169 159.117)" fill="#884646"/>
+<ellipse cx="107.169" cy="63.1174" rx="17" ry="4" transform="rotate(12.9524 107.169 63.1174)" fill="#884646"/>
+<ellipse cx="560.5" cy="195.5" rx="7.5" ry="2.5" fill="#884646"/>
+<ellipse cx="436.5" cy="65.5" rx="7.5" ry="2.5" fill="#884646"/>
+<ellipse cx="639.782" cy="250.105" rx="17" ry="4" transform="rotate(-114.882 639.782 250.105)" fill="#FFECAB"/>
+<ellipse cx="755.935" cy="181.854" rx="12.5" ry="3" transform="rotate(76.0002 755.935 181.854)" fill="#884646"/>
+<ellipse cx="792.5" cy="266.5" rx="7.5" ry="2.5" fill="#6ECDD3"/>
+<ellipse cx="854.5" cy="56.5" rx="7.5" ry="2.5" fill="#6ECDD3"/>
+<ellipse cx="429.358" cy="169.496" rx="12.5" ry="3" transform="rotate(117.062 429.358 169.496)" fill="#FCBCBC"/>
+<ellipse rx="12.5" ry="5.79789" transform="matrix(-0.454948 0.890518 0.890518 0.454948 578.85 79.7692)" fill="#FCBCBC"/>
+<circle cx="859.5" cy="161.5" r="2.5" fill="#884646"/>
+<circle cx="747.5" cy="60.5" r="2.5" fill="#884646"/>
+<ellipse cx="266" cy="49.5" rx="4" ry="4.5" fill="#A0D2A8"/>
+<ellipse cx="544" cy="268.5" rx="4" ry="4.5" fill="#FFECAB"/>
+<ellipse cx="952.5" cy="202.5" rx="7.5" ry="2.5" fill="#884646"/>
+<circle cx="75.5" cy="143.5" r="2.5" fill="#FCBCBC"/>
+<ellipse cx="69" cy="263.5" rx="4" ry="4.5" fill="#FCBCBC"/>
 </g>
 <defs>
 <clipPath id="clip0">

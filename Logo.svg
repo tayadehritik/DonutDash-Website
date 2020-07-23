@@ -2,7 +2,7 @@
 <circle cx="25" cy="25" r="25" fill="#EDCD5C"/>
 <ellipse cx="21.5" cy="24.9167" rx="21.5" ry="21.9167" fill="#DB7A7A"/>
 <ellipse cx="17.4166" cy="25.1667" rx="7.58333" ry="11.5" fill="#EDCD5C"/>
-<ellipse cx="18.25" cy="25.1667" rx="6.75" ry="11.5" fill="#FFE99D"/>
+<ellipse cx="18.25" cy="25.1667" rx="6.75" ry="11.5" fill="white"/>
 <ellipse cx="27.1667" cy="11.75" rx="0.666667" ry="0.75" fill="#A0D2A8"/>
 <ellipse cx="20.1667" cy="41.5833" rx="0.666667" ry="0.75" fill="#FFECAB"/>
 <ellipse cx="22.1667" cy="8.75" rx="0.666667" ry="0.75" fill="#FCBCBC"/>
