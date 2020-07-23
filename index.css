@@ -140,7 +140,6 @@ body, html {
 
 
     #description-container{
-        height: 400px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr ;
@@ -149,15 +148,14 @@ body, html {
     
     #description-text{
         font-family: Roboto;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
-        font-size: 20px;
         align-self: center;
         
     }
     #description-para{
         font-family: "Roboto";
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 300;
         align-self: center;
         text-align: justify;
@@ -204,7 +202,7 @@ body, html {
     #footer-text{
         font-family: "Roboto";
         font-weight: 300;
-        font-size: 16px;
+        font-size: 14px;
     }
 
 /*
@@ -346,7 +344,7 @@ body, html {
    
 
     #description-container{
-        height: 400px;
+        height: 350px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr ;
