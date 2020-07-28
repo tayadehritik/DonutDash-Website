@@ -93,8 +93,9 @@ body, html {
         
     }
     #center-main-content{
-        display: grid;
+        display: flex;
         justify-self: center;
+        flex-direction: column;
         grid-template-columns: 1fr ;
         grid-template-rows: 1fr 1fr;
         width: 80%;
@@ -107,6 +108,7 @@ body, html {
 
     #text-and-badge{
         width: 100%;
+        height: 250px;
         background-size: 100%;
         background-position-x: left;
         background-position-y: bottom;
@@ -132,8 +134,8 @@ body, html {
 
     
     #video{
-        width: 100%;
-        height: auto;
+        width: auto;
+        height: 250px;
     }
    
    
@@ -301,13 +303,15 @@ body, html {
     #main-content{
         display: grid;
         
+        
     }
     #center-main-content{
-        display: grid;
+        display: flex;
         justify-self: center;
+        flex-direction: row;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
-        width: 70%;
+        width: 50%;
         
         
     }
@@ -316,6 +320,7 @@ body, html {
 
     #text-and-badge{
         width: 100%;
+        height: 250px;
         background-size: 100%;
         background-position-x: left;
         background-position-y: bottom;
@@ -325,6 +330,7 @@ body, html {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         justify-items: center;
+        justify-self: end;
     }
 
     #title-text{
@@ -341,8 +347,8 @@ body, html {
 
     
     #video{
-        width: 100%;
-        height: auto;
+        width: auto;
+        height: 250px;
     }
    
 

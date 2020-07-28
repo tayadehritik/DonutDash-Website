@@ -5,6 +5,8 @@ function burgerClick(){
     if(document.getElementById("menu").style.display == "none")
     {
         document.getElementById("menu").style.display = "grid";
+
+        
     }
     else
     {
